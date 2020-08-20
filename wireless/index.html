@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Wireless - Saturn-Rings</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Saturn-Rings</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Wireless</a>
+                            </li>
+                            <li >
+                                <a href="../SDR/">SDR</a>
+                            </li>
+                            <li >
+                                <a href="../academic/">Academic</a>
+                            </li>
+                            <li >
+                                <a href="../blog/">Blog</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../SDR/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#wireless-study-notes">Wireless Study Notes</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#spec-list">Spec List</a></li>
+            <li><a href="#links">Links</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="wireless-study-notes">Wireless Study Notes</h1>
+<hr />
+<h2 id="books">Books</h2>
+<ul>
+<li><strong>5G NR The Next Generation Wireless Access Technology</strong></li>
+<li><strong>5G NR Bullets</strong><hr />
+</li>
+</ul>
+<h2 id="spec-list">Spec List</h2>
+<p><strong>Overall Material</strong></p>
+<ul>
+<li>
+<p>3GPP TR 23.799: Study on Architecture for Next Generation System </p>
+</li>
+<li>
+<p>3GPP TR 38.801: Study on new radio access technology: Radio access architecture and interfaces </p>
+</li>
+<li>
+<p>3GPP TR 38.802: Study on New Radio Access Technology Physical Layer Aspects </p>
+</li>
+<li>
+<p>3GPP TR 38.803: Study on new radio access technology: Radio Frequency (RF) and co-existence aspects </p>
+</li>
+<li>
+<p>3GPP TR 38.804: Study on New Radio Access Technology; Radio Interface Protocol Aspects </p>
+</li>
+<li>3GPP TS 22.261: Service requirements for the 5G system; Stage 1 </li>
+</ul>
+<p><strong>New Radio (NR): General</strong></p>
+<ul>
+<li>
+<p>3GPP TS 38.300: NR; NR and NG-RAN Overall Description; Stage 2 </p>
+</li>
+<li>
+<p>3GPP TS 38.304: New Generation Radio Access Network; User Equipment (UE) procedures in Idle mode </p>
+</li>
+<li>
+<p>3GPP TS 37.340: NR; Multi-connectivity; Overall description; Stage-2 </p>
+</li>
+</ul>
+<p><strong>New Radio (NR): User Equipment (UE)</strong> </p>
+<ul>
+<li>
+<p><font color='green'>3GPP TS 38.101-1: NR; User Equipment (UE) radio transmission and reception; Part 1: Range 1 Standalone</font></p>
+</li>
+<li>
+<p><font color='green'>3GPP TS 38.101-2: NR; User Equipment (UE) radio transmission and reception; Part 2: Range 2 Standalone</font> </p>
+</li>
+<li>
+<p>3GPP TS 38.101-3: NR; User Equipment (UE) radio transmission and reception; Part 3: Range 1 and Range 2 Interworking operation with other radios </p>
+</li>
+<li>
+<p>3GPP TS 38.101-4: NR; User Equipment (UE) radio transmission and reception; Part 4: Performance requirements </p>
+</li>
+<li>
+<p>3GPP TS 38.306: NR; User Equipment (UE) radio access capabilities </p>
+</li>
+<li>
+<p>3GPP TS 38.307: NR; Requirements on User Equipments (UEs) supporting a release-independent frequency band </p>
+</li>
+</ul>
+<p><strong>New Radio (NR): Base Stations (BS)</strong> </p>
+<ul>
+<li>3GPP TS 38.104: NR; Base Station (BS) radio transmission and reception </li>
+</ul>
+<p><strong>New Radio (NR): Layer 1 (Physical Layer)</strong></p>
+<ul>
+<li>
+<p>3GPP TS 38.201: NR; Physical layer; General description </p>
+</li>
+<li>
+<p>3GPP TS 23.202: Procedures for the 5G System; Stage 2 </p>
+</li>
+<li>
+<p>3GPP TS 38.211: NR; Physical channels and modulation </p>
+</li>
+<li>
+<p>3GPP TS 38.212: NR; Multiplexing and channel coding </p>
+</li>
+<li>
+<p>3GPP TS 38.213: NR; Physical layer procedures for control </p>
+</li>
+<li>
+<p>3GPP TS 38.214: NR; Physical layer procedures for data </p>
+</li>
+<li>
+<p>3GPP TS 38.215: NR; Physical layer measurements </p>
+</li>
+</ul>
+<p><strong>New Radio (NR): Layer 2</strong></p>
+<ul>
+<li>
+<p>3GPP TS 38.321: NR; Medium Access Control (MAC) protocol specification </p>
+</li>
+<li>
+<p>3GPP TS 38.322: NR; Radio Link Control (RLC) protocol specification </p>
+</li>
+<li>
+<p>3GPP TS 38.323: NR; Packet Data Convergence Protocol (PDCP) specification </p>
+</li>
+<li>
+<p>3GPP TS 37.324: Evolved Universal Terrestrial Radio Access (E-UTRA) and NR; Service Data Adaptation Protocol (SDAP) specification </p>
+</li>
+</ul>
+<p><strong>New Radio (NR): Layer 3</strong></p>
+<ul>
+<li>3GPP TS 38.331: NR; Radio Resource Control (RRC) protocol specification </li>
+</ul>
+<p><strong>System Architecture and Procedures for 5G System (5GS)</strong></p>
+<ul>
+<li>
+<p>3GPP TS 23.501: System Architecture for the 5G System; Stage 2 </p>
+</li>
+<li>
+<p>3GPP TS 23.502: Procedures for the 5G System; Stage 2 </p>
+</li>
+</ul>
+<p><strong>5GC Service Based Architecture (SBA) and Interface (SBI)</strong></p>
+<ul>
+<li>
+<p>3GPP TS 29.500: 5G System; Technical Realization of Service Based Architecture; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.501: 5G System; Principles and Guidelines for Services Definition; Stage 3 </p>
+</li>
+</ul>
+<p><strong>5GS Network Functions (NFs)</strong></p>
+<ul>
+<li>
+<p>3GPP TS 29.502: 5G System; Session Management Services; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.503: 5G System; Unified Data Management Services; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.504: 5G System; Unified Data Repository Services; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.505: 5G System; Usage of the Unified Data Repository services for Subscription Data; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.507: 5G System; Access and Mobility Policy Control Service; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.508: 5G System; Session Management Event Exposure Service; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.509: 5G System; Authentication Server Services; Stage 3 </p>
+</li>
+<li>
+<p>3GPP TS 29.510: 5G System; Network function repository services; Stage 3 </p>
+</li>
+</ul>
+<hr />
+<h2 id="links">Links</h2>
+<ul>
+<li>
+<p>FR2 mmW Test Slides from TE</p>
+<ul>
+<li>https://cdn.rohde-schwarz.com/fr/general_37/local_webpages/2019_demystifying_5g_and_ota/5G_NR_France_June2019_-_OTA_regulation_test_and_measurement_aspects.pdf</li>
+</ul>
+</li>
+<li>
+<p>ITU antenna test positioning</p>
+<ul>
+<li>https://www.itu.int/dms_pub/itu-t/opb/tut/T-TUT-TEST-2019-PDF-E.pdf</li>
+</ul>
+</li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
