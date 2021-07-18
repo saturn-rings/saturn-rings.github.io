@@ -12,18 +12,18 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
         <script src="js/jquery-1.10.2.min.js" defer></script>
         <script src="js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Saturn-Rings</a>
+                <a class="navbar-brand" href="index.html">Saturn-Rings</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,33 +34,33 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                                <a href="index.html" class="nav-link">Home</a>
                             </li>
                             <li class="navitem">
-                                <a href="wireless/" class="nav-link">Wireless</a>
+                                <a href="wireless.html" class="nav-link">Wireless</a>
                             </li>
                             <li class="navitem">
-                                <a href="SDR/" class="nav-link">SDR</a>
+                                <a href="SDR.html" class="nav-link">SDR</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Academic <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="academic-general/" class="dropdown-item">General</a>
+    <a href="academic-general.html" class="dropdown-item">General</a>
 </li>
                                     
 <li>
-    <a href="academic-papers/" class="dropdown-item">Papers</a>
+    <a href="academic-papers.html" class="dropdown-item">Papers</a>
 </li>
                                     
 <li>
-    <a href="academic-maths/" class="dropdown-item">Maths</a>
+    <a href="academic-maths.html" class="dropdown-item">Maths</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="blog/" class="nav-link">Blog</a>
+                                <a href="blog.html" class="nav-link">Blog</a>
                             </li>
                         </ul>
 
@@ -76,7 +76,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="wireless/" class="nav-link">
+                                <a rel="next" href="wireless.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -116,6 +116,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#current-readings" class="nav-link">Current Readings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -126,71 +130,84 @@
 <h1 id="saturn-and-rings">Saturn and Rings</h1>
 <p><strong>Quote from Wiki:</strong></p>
 <blockquote>
-<p><em>The rings of Saturn are the most extensive ring system of any planet in the Solar System. They consist of countless small particles, ranging in size from micrometers to meters, that orbit about Saturn.</em></p>
+<p>The rings of Saturn are the most extensive ring system of any planet in the Solar System. They consist of countless small particles, ranging in size from micrometers to meters, that orbit about Saturn. </p>
 </blockquote>
 <hr />
-<h2 id="work"><strong>Work</strong></h2>
+<h2 id="work">Work</h2>
 <ul>
-<li>Wireless System Design (4G/5G/WLAN)</li>
-<li>Wireless FW/SW</li>
+<li>Wireless System Design (4G/5G/Wifi)</li>
+<li>Experience on wireless FW and SW development</li>
 </ul>
 <hr />
-<h2 id="interests"><strong>Interests</strong></h2>
+<h2 id="interests">Interests</h2>
 <ul>
-<li>Optimization</li>
-<li>Statistics</li>
-<li>Signal Processing</li>
+<li>wireless communication and network</li>
+<li>optimization, statistics</li>
+<li>software-defined-radio</li>
 </ul>
 <hr />
-<h2 id="patents"><strong>Patents</strong></h2>
+<h2 id="patents">Patents</h2>
 <ol>
-<li><strong>[Granted]</strong> US9338668B2: Gain control for intra-band carrier aggregation</li>
-<li><strong>[Granted]</strong> US10454716B2: Soft-windowing channel estimation</li>
-<li><strong>[Granted]</strong> US10356755B2: Intelligent resource assignment to increase throughput in multiple input multiple output (MIMO) and carrier aggregation (CA) capable devices</li>
-<li><strong>[Granted]</strong> US10624024B2: Correlation-enhanced frequency scanning</li>
-<li>US20150049651A1: Dynamically updating filtering configuration in modem baseband processing</li>
-<li>US20180091108A1: Optimization for energy efficient multi-channel communication with shared lna structure</li>
-<li>US20190253229A1: Transport block size for channels with shortened transmission time interval</li>
-<li>WO2019075606A1: Dynamic ip2 calibration</li>
-<li>WO2019241942A1: Apparatus and method for measurement report optimization</li>
+<li>
+<p><strong>[Granted]</strong> US9338668B2: Gain control for intra-band carrier aggregation</p>
+<ul>
+<li>Mariam Motamed, Wesley A. Sampson, Alexei Yurievitch Gorokhov, <strong>Pengkai Zhao</strong> </li>
+</ul>
+</li>
+<li>
+<p>[Granted] Soft-windowing channel estimation</p>
+</li>
+<li>[Granted] Intelligent resource assignment to increase throughput in multiple input multiple output (MIMO) and carrier aggregation (CA) capable devices</li>
+<li>[Granted] Correlation-enhanced frequency scanning</li>
+<li>Dynamically updating filtering configuration in modem baseband processing</li>
+<li>Optimization for energy efficient multi-channel communication with shared lna structure</li>
+<li>
+<p>Network Assisted Wireless Device Preferred Bandwidth Part Configuration</p>
+</li>
+<li>
+<p>Transport block size for channels with shortened transmission time interval</p>
+</li>
+<li>Dynamic ip2 calibration</li>
+<li>Apparatus and method for measurement report optimization</li>
 <li>Techniques and apparatuses for interference mitigation using a reconfigurable receiver</li>
-<li>US20200295854A1: Dynamic antenna selection and beam steering</li>
-<li>US20200228189A1: 5G New Radio Beam Refinement Procedure</li>
-<li>US20200145080A1: Beam Management without Beam Correspondence</li>
-<li>US20200186290A1: Groupcast Transmission with Feedback for Intra-Platooning and Inter-Platooning Communications</li>
-<li>US20200196240A1: Power Saving for Pedestrian User Equipment in Vehicular Communications Systems</li>
-<li>US20190281504A1: Network Assisted Wireless Device Preferred Bandwidth Part Configuration</li>
-<li>US20200137602A1: Cell Measurements Using Configured Reference Signals while in RRC Inactive Mode</li>
-<li>US20200245408A1: V2X Resource Map for Semi-Persistent Scheduling with Unicast/Groupcast Services</li>
-<li>US20200196353A1: V2X Side-link Resource Management</li>
-<li>US20200107400A1: Downlink Control for Non Coherent Joint Transmission</li>
-<li>US20200107399A1: Listen Again After Talk for Broadcast/Multi-cast Communications</li>
-<li>US20200107279A1: LTE NR Power Control for EN-DC</li>
-<li>WO2020029230A1: Dynamic c-drx configuration for balance between power savings and communication efficiency, and use of dci for activating carrier components</li>
-<li>US20200145918A1: Apparatus, System, and Method for Mobile Station Power Saving</li>
-<li>US20200107323A1: Wideband Transmission with Narrowband Monitoring for New Radio Unlicensed Spectrum (NRU)</li>
-<li>20200358515: Beam Tracking Using Downlink Data Reception and Motion Sensing Information</li>
 </ol>
 <hr />
-<h2 id="links"><strong>Links</strong></h2>
-<ul>
-<li><a href="http://www.mafengwo.cn/">Travel Web</a></li>
-<li><a href="https://unsplash.com/">Free Pics: Unsplash</a></li>
-<li><a href="https://pixabay.com/">Free Pics: pixabay</a></li>
-</ul>
+<h2 id="links">Links</h2>
 <hr />
-<!-- 不蒜子计数 -->
+<!-------------------------------
+    Reading Progress
+---------------------------------->
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<p><span id="busuanzi_container_site_pv" >Total <span id="busuanzi_value_site_pv"></span> Visits </span>
-<span id="busuanzi_container_site_uv" >| Total <span id="busuanzi_value_site_uv"></span> Guests </span>
-<!-- 不蒜子计数 --></p>
-<!-- map -->
-
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=lLh5Pmp9DZ23RZtpTTLsxGJNHt0wWGMrk31-bd8S2JI&cl=ffffff&w=a"></script>
-
-<hr /></div>
+<h2 id="current-readings">Current Readings</h2>
+<ul>
+<li>
+<p><strong>LTE/NR Spec</strong></p>
+<ul>
+<li>38.101-4: page 40</li>
+</ul>
+</li>
+<li>
+<p><strong>3GPP Doc</strong></p>
+<ul>
+<li>SRS R17 is done</li>
+<li>RAN1 is roughly/quickly reviewed</li>
+<li>RAN2 is on-going</li>
+<li>Multicast?</li>
+</ul>
+</li>
+<li>
+<p><strong>Papers</strong></p>
+<ul>
+<li>15 paper logs</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimization Method in Chinese</strong></p>
+</li>
+<li>
+<p><strong>MIT optimization book</strong></p>
+</li>
+</ul></div>
             </div>
         </div>
 
@@ -213,16 +230,13 @@
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
@@ -273,6 +287,6 @@
 </html>
 
 <!--
-MkDocs version : 1.1.2
-Build Date UTC : 2021-01-03 19:34:23.438311+00:00
+MkDocs version : 1.2.1
+Build Date UTC : 2021-07-18 05:24:21.419061+00:00
 -->

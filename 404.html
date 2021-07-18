@@ -12,18 +12,18 @@
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/font-awesome.min.css" rel="stylesheet">
         <link href="/css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
         <script src="/js/jquery-1.10.2.min.js" defer></script>
         <script src="/js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="/.">Saturn-Rings</a>
+                <a class="navbar-brand" href="/index.html">Saturn-Rings</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,33 +34,33 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="/." class="nav-link">Home</a>
+                                <a href="/index.html" class="nav-link">Home</a>
                             </li>
                             <li class="navitem">
-                                <a href="/wireless/" class="nav-link">Wireless</a>
+                                <a href="/wireless.html" class="nav-link">Wireless</a>
                             </li>
                             <li class="navitem">
-                                <a href="/SDR/" class="nav-link">SDR</a>
+                                <a href="/SDR.html" class="nav-link">SDR</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Academic <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="/academic-general/" class="dropdown-item">General</a>
+    <a href="/academic-general.html" class="dropdown-item">General</a>
 </li>
                                     
 <li>
-    <a href="/academic-papers/" class="dropdown-item">Papers</a>
+    <a href="/academic-papers.html" class="dropdown-item">Papers</a>
 </li>
                                     
 <li>
-    <a href="/academic-maths/" class="dropdown-item">Maths</a>
+    <a href="/academic-maths.html" class="dropdown-item">Maths</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="/blog/" class="nav-link">Blog</a>
+                                <a href="/blog.html" class="nav-link">Blog</a>
                             </li>
                         </ul>
 
@@ -108,16 +108,13 @@
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
